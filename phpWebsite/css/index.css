@@ -1,0 +1,71 @@
+body{width:100%;background:url(../images/bg.png) no-repeat;margin:0; padding:0;height:100%;font-family:'微软雅黑';min-width:1200px;position:absolute;}
+.top{width:1200px;margin:0 auto;overflow:hidden;height:auto;}
+.logo{width:479px;height:121px;float:left;margin-top:66px;}
+.computer{width:440px;height:160px;float:right;margin-top:66px;}
+.content{width:1200px;margin:0 auto;margin-top:40px;}
+.content-top{background:rgb(0,153,230);width:1200px;height:48px;}
+.content-top ul li {border-right:1px solid rgb(214,214,214); height:48px;float:left;}
+.th1{width:90px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th2{width:226px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th3{width:115px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th4{width:134px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th5{width:110px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th6{width:99px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th7{width:102px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th8{width:94px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th9{width:110px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th10{width:110px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+
+.list{width:1200px;margin:0 auto;}
+.list ul{width:1200px;height:41px;}
+.list ul:nth-child(odd){background-color:#FFF;}
+.list ul:nth-child(even){background-color:rgb(242,251,255);}
+.list ul li {border:1px solid rgb(214,214,214);border-top-width:0px;border-left-width:0px;float:left;}
+.td1{width:89px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑,';height:40px;line-height:40px;}
+.td2{width:226px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td3{width:115px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td4{width:134px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td5{width:110px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td6{width:99px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td7{width:102px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td8{width:94px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td9{width:110px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td10{width:110px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.page{
+	margin:30px auto;
+	font-family:'微软雅黑';
+	font-size:14px;
+}
+.page a{
+	border:1px solid rgb(0,153,230);
+	text-decoration: none;
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	color:rgb(0,153,230);
+	background-color:#ffffff;
+}
+.page a:hover{
+	border:2px solid rgb(242,251,255);
+	padding:2px 6px 2px 6px;
+	color:white;
+	background-color:rgb(0,153,230);
+}
+.page span.current{
+	border:1px solid rgb(0,153,230);
+	background-color:rgb(0,153,230);
+	color:#ffffff;
+	padding:2px 6px 2px 6px;
+	margin:2px;
+}
+.page span.disable{
+	border:1px solid #eee;
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	color:#ddd;
+}
+.page #form{
+	display: inline;
+}
+#btn{
+	width:50px;
+}

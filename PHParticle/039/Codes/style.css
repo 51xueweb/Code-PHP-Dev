@@ -1,0 +1,18 @@
+.gc{
+	font-size:16px;
+	line-height:2em;
+	width:400px;
+	padding:30px;
+	border:1px solid green;
+	background-color:#ccffcc;
+	margin: 20px auto;
+}
+.jzz{
+	font-size:18px;
+	line-height:2em;
+	width:400px;
+	padding:50px;
+	border:1px solid pink;
+	background-color:pink;
+	margin: 40px auto;
+}

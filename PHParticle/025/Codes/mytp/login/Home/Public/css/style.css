@@ -1,0 +1,63 @@
+/*index页面样式*/
+/*初始化清零*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body{
+	cellpadding:0;
+	cellspacing:0;
+	background-color:#CCCCFF;
+}
+/*登录界面*/
+#main{
+	padding:20px;
+	background-color: #CCCCCC;
+	margin:50px auto;
+	width:500px;
+	height:200px;
+	border-radius:10px;
+}
+/*表格*/
+#tbdl{
+	margin:20px auto;
+	line-height:2em;
+	font-size:16px;
+}
+/*用户信息展示*/
+#mainshow{
+	padding:20px;
+	background-color: #CCCCCC;
+	margin:50px auto;
+	width:540px;
+	height:300px;
+	border-radius:10px;
+}
+/*表格*/
+#tbinfo{
+	margin:20px auto;
+	line-height:2em;
+	font-size:16px;
+}
+/*注册*/
+#mainzhuce{
+	padding:20px;
+	background-color: #CCCCCC;
+	margin:50px auto;
+	width:540px;
+	height:360px;
+	border-radius:10px;
+}

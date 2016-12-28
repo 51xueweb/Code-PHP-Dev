@@ -1,0 +1,92 @@
+<!--教学周历信息管理-->
+<!DOCTYPE html>
+<html>
+<!-- 引入head部分文件 -->
+<!-- 后台页面head公共部分 -->
+<head>
+	<title>河南中医药大学教学信息实时查询后台管理系统</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/adminstyle.css">
+	<script src="./js/showDate.js"></script>
+</head><body>
+<!-- 引入nav部分文件 -->
+<nav>
+	<img src="./images/logo.png">
+	<a id="a_header1" class="a_header">河南中医药大学教学信息实时查询后台管理系统</a><br/>
+	<a id="a_header2" class="a_header">Real time inquiry background management system of teaching information</a>
+</nav><article>
+	<!-- 引入left部分文件 -->
+	<div id="left">
+	<table id="left_tab">
+		<h3><center>功能列表</center></h3>
+		<tr class="list_title"><th>管理员列表</th></tr>
+		<tr class="list"><td><a href="./personal_info.php">个人信息</a></td></tr>
+		<tr class="list"><td><a href="./personal_change_pwd.php">修改密码</a></td></tr>
+		<tr class="list_title"><th>信息管理列表</th></tr>
+		<tr class="list"><td><a href="./student_info.php">学生信息 </a></td></tr>
+		<tr class="list"><td><a href="./teacher_info.php">教师信息</a></td></tr>
+		<tr class="list"><td><a href="./course_info.php">课程信息</a></td></tr>
+		<tr class="list"><td><a href="./room_info.php">教室信息</a></td></tr>
+		<tr class="list"><td><a href="../class_info.php">班级信息</a></td></tr>
+		<tr class="list"><td><a href="./zhouli_info.php">教学周历</a></td></tr>
+		<tr class="list_title"><th><a href="./index.php">返回前台</a></th></tr>
+		<tr class="list_title"><th><a href="./logout.php">退出系统</a></th></tr>
+	</table>
+</div>	<div id="main">
+		<div id="main_top">
+			<div id="position">
+				&nbsp;&nbsp;&nbsp;您当前的位置-->>信息管理列表-->>教学周历信息管理
+				<div id="showDate"></div>
+			</div>	
+		</div>
+		<div id="main_bottom">
+		<form action="zhouli_info.php" method="post">
+		<span id="span1">
+			<a id="jiansuo">高级检索</a>：&nbsp;&nbsp;
+			日期：<input type="text" name="year" size="2">年
+			<select name="month">
+				<option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option>			</select>月
+			<input type="text" name="day" size="1">日&nbsp;&nbsp;
+			节次：<select name="jieci">
+			<option>1-2节</option>
+			<option>3-4节</option>
+			<option>5-6节</option>
+			<option>7-8节</option>
+			</select>&nbsp;&nbsp;
+			<input type="submit" name="chaxun" value="查询">
+		</span>
+		<span id="span2"><a href="zhouli_info_add.php">添加教学周历信息</a></span>
+		</form>
+		<br/><br/>
+		<div class='content1'><table id='course_info'><tr><th width='150px'>课程名称</th><th>上课日期</th><th width='50px'>星期</th><th width='45x'>节次</th><th width='60x'>授课教室</th><th>授课班级</th><th width='60px'>授课教师</th><th>讲课内容</th><th width='70px'>操作</th></tr><tr><td>网络构建与运维管理</td><td>2016-09-05</td><td>星期一</td><td>1-2节</td><td>A505</td><td>2014级信息管理与信息系统一、二班</td><td>许成刚</td><td>局域网设计与构建-基础，交换机</td><td>
+						<a href='zhouli_info_edit.php?zl_id=1'>编辑</a>&nbsp;
+						<a href='zhouli_info_delete.php?zl_id=1'>删除</a>
+				      </td></tr><tr><td>Oracle数据库技术</td><td>2016-09-05</td><td>星期一</td><td>1-2节</td><td>A721</td><td>2014级计算机科学与技术本科班</td><td>赵春霞</td><td>数据库的基本概念、数据库系统</td><td>
+						<a href='zhouli_info_edit.php?zl_id=311'>编辑</a>&nbsp;
+						<a href='zhouli_info_delete.php?zl_id=311'>删除</a>
+				      </td></tr><tr><td>JAVA程序设计基础</td><td>2016-09-05</td><td>星期一</td><td>3-4节</td><td>A709</td><td>2014级信息管理与信息系统一、二班</td><td>赵营颖</td><td>java概述及开发环境搭建、简单的java程序</td><td>
+						<a href='zhouli_info_edit.php?zl_id=2'>编辑</a>&nbsp;
+						<a href='zhouli_info_delete.php?zl_id=2'>删除</a>
+				      </td></tr><tr><td>概率论与数理统计</td><td>2016-09-05</td><td>星期一</td><td>3-4节</td><td>A434</td><td>2015级信息管理与信息系统本科班</td><td>崔红新</td><td>引言</td><td>
+						<a href='zhouli_info_edit.php?zl_id=952'>编辑</a>&nbsp;
+						<a href='zhouli_info_delete.php?zl_id=952'>删除</a>
+				      </td></tr><tr><td>微观经济学</td><td>2016-09-05</td><td>星期一</td><td>5-6节</td><td>A649</td><td>2014级信息管理与信息系统一、二班</td><td>王晨曦</td><td>引论(A) </td><td>
+						<a href='zhouli_info_edit.php?zl_id=3'>编辑</a>&nbsp;
+						<a href='zhouli_info_delete.php?zl_id=3'>删除</a>
+				      </td></tr><tr><td>数据库原理</td><td>2016-09-05</td><td>星期一</td><td>5-6节</td><td>A708</td><td>2015级信息管理与信息系统本科班</td><td>徐燕文</td><td>第一章1-2节：数据库系统概述，数据模型及其组成要素</td><td>
+						<a href='zhouli_info_edit.php?zl_id=953'>编辑</a>&nbsp;
+						<a href='zhouli_info_delete.php?zl_id=953'>删除</a>
+				      </td></tr><tr><td>微观经济学</td><td>2016-09-05</td><td>星期一</td><td>7-8节</td><td>A649</td><td>2014级信息管理与信息系统一、二班</td><td>王晨曦</td><td>引论(B)</td><td>
+						<a href='zhouli_info_edit.php?zl_id=4'>编辑</a>&nbsp;
+						<a href='zhouli_info_delete.php?zl_id=4'>删除</a>
+				      </td></tr><tr><td>网页设计与网站规划</td><td>2016-09-05</td><td>星期一</td><td>7-8节</td><td>A708</td><td>2015级信息管理与信息系统本科班</td><td>耿方方</td><td>第一章：概述</td><td>
+						<a href='zhouli_info_edit.php?zl_id=954'>编辑</a>&nbsp;
+						<a href='zhouli_info_delete.php?zl_id=954'>删除</a>
+				      </td></tr></table></div><center><br/><br/>当前1/81页 共计643条 <a href='zhouli_info.php?page=1'>首页</a>  <a href='zhouli_info.php?page=0'>上一页</a>  <a href='zhouli_info.php?page=2'>下一页</a>  <a href='zhouli_info.php?page=81'>末页</a> </center>		</div>
+	</div>
+</article>
+<!-- 引入footer部分文件 -->
+<footer>
+	<p>Copyright © 2016 橙子哩组合 版权所有</p>
+</footer></body>
+</html>

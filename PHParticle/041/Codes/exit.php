@@ -1,0 +1,9 @@
+<?php
+	/**
+	 *退出系统
+	 */
+	session_start();
+	unset($_SESSION['nickname']);
+	unset($_SESSION['password']);
+	header("Location:index.php");	
+?>

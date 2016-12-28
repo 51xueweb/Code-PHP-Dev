@@ -1,0 +1,245 @@
+﻿/*后台页面css样式*/
+body{
+	padding:0;
+	margin:0;
+	cellpadding:0;
+	cellspacing:0;
+	background-color:#FFFFFF;  
+ 	overflow-x:none;
+ 	width:100%;
+ 	height:100%;
+ 	font-size:14px;
+}
+
+/*公共部分*/
+nav{
+	background-image :url(../images/banner.jpg);
+	height:70px;
+	padding-top:20px;
+}
+nav img{
+	width: 42px;
+	height: 42px;
+	margin-left: 30px;
+	margin-top: 4px;
+	float:left;
+}
+nav #a_header1 {
+    font-size: x-large;
+    font-weight: bold;
+}
+nav .a_header {
+    color: white;
+    height: 40px;
+    margin-left: 10px;
+}
+article{
+	height:550px;
+}
+article #left{
+	float:left;
+	width:280px;
+	height:550px;
+	margin-left:30px;
+	background-color:#CCFFCC;
+	box-shadow:0 -5px 2px 1px #CCFFCC;
+}
+article #left #left_tab{
+	line-height:30px;
+	margin: 20px auto;
+}
+article #left h3{
+	color:green;
+}
+article #left #left_tab .list_title{
+	color:#18120d;
+}
+article #left #left_tab tr{
+	width:280px;
+}
+article #left #left_tab .list a{
+	text-decoration: none;
+	color:green;
+}
+article .list_title a{
+	text-decoration: none;
+	color:black;
+}
+article .list_title a:hover{
+	text-decoration: none;
+	color:green;
+}
+article #left #left_tab td{
+	text-align:center;
+}
+article #left #left_tab td:hover{
+	width:280px;
+	text-align:center;
+	background-color:#7DD480;
+	border:1px dotted #fbffff;
+}
+article #exit{color:black;}
+article #main{
+	margin-left:30px;
+	margin-right:30px;
+	background-color:#fbffff;
+}
+footer{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+
+/*课程信息管理*/
+#main #main_top #position{
+	height:30px;
+	padding:5px;
+	line-height:30px;
+	background-color:#E7EADC;
+	box-shadow:0 -5px 2px 1px #E7EADC;
+}
+#main #main_top #position #showDate{
+	float:right;
+	margin-right:40px;
+}
+#main_bottom{
+	padding-top:10px;
+	padding-left:320px;
+}
+#main_bottom #span1{
+	float:left;
+	margin-left:120px;
+	margin-top:10px;
+}
+#main_bottom #span1 #jiansuo{
+	color:green;
+}
+#main_bottom #span2{
+	float:right;
+	margin-right:50px;
+	margin-top:10px;
+}
+#main_bottom #span2 a{
+	background-color:#CCFFCC;
+	padding:5px;
+	border:1px solid green;
+	border-radius:8px;
+	color:green;
+}
+#main_bottom #span2 a:hover{
+	color:gray;
+}
+#main_bottom #course_info{
+	width:940px;
+	margin-top:10px;
+	text-align:center;
+}
+#main_bottom #course_info tr{
+	background-color:#E7EADC;
+}
+#main_bottom #course_info th{
+	background-color:#c5bbaf;
+}
+#main_bottom #course_info a{
+	text-decoration:none;
+	color:green;
+}
+#main_bottom #course_info a:hover{
+	text-decoration:none;
+	color:red;
+}
+.content{
+	width:920px;
+}
+#main_bottom a{
+	text-decoration: none;
+}
+#main_bottom a:hover{
+	text-decoration: none;
+	color:green;
+}
+/*添加课程*/
+#main_bottom #course_add{
+	margin: 40px auto;
+	width:440px;
+	height:280px;
+	padding:20px;
+	border:1px solid green;
+	border-radius:10px 8px;
+	background-color:#CCFFCC;
+}
+#main_bottom #course_add .txt{
+	width:200px;
+	border-radius:8px 8px;
+}
+/*添加班级*/
+#main_bottom #class_add{
+	margin: 40px auto;
+	width:400px;
+	height:200px;
+	padding:40px;
+	border:1px solid green;
+	border-radius:10px 8px;
+	background-color:#CCFFCC;
+}
+#main_bottom #class_add .txt{
+	width:200px;
+}
+/*添加周历*/
+#main_bottom #zhouli_add{
+	margin: 40px auto;
+	width:500px;
+	height:400px;
+	padding:40px;
+	border:1px solid green;
+	border-radius:10px 8px;
+	background-color:#CCFFCC;
+}
+#main_bottom #zhouli_add .txt{
+	width:200px;
+}
+
+/*个人信息*/
+#main_bottom #per_con{
+	width:320px;
+	margin:20px auto;
+	padding:20px;
+	border:1px solid #CCCCFF;
+	border-radius:10px;
+	line-height:1.5em;
+	background-color:#CCFFCC;
+}
+#main_bottom #per_con #per_info{
+	margin:auto;
+	width:170px;
+}
+#main_bottom #per_info a{
+	color:black;
+	font-size:12px;
+	background-color:white;
+	padding:6px;
+	text-decoration: none;
+	border:1px solid #c5bbaf;
+	border-radius:8px;
+}
+#main_bottom #per_info a:hover{
+	color:red;
+}
+/*编辑个人信息*/
+#main_bottom #pedit{
+	width:340px;
+	margin:20px auto;
+	padding:20px;
+	border:1px solid #CCCCFF;
+	border-radius:10px;
+	line-height:2em;
+	background-color:#CCFFCC;
+}
+#main_bottom #pedit #per_info_edit{
+	margin:auto;
+	width:240px;
+}
+/*周历信息*/
+.content1{
+	width:940px;
+}

@@ -1,0 +1,57 @@
+/*登录css样式*/
+body{
+	cellpadding:0;
+	cellspacing:0;
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+#denglu{
+	width:460px;
+	margin:50px auto;
+	border:1px solid blue;
+	border-radius:10px;
+	background-color: #FFFFCC;
+}
+#top{	
+	text-align:center;
+	padding-top:20px;
+	line-height:2em;
+	color:blue;
+	font-size:24px;
+	font-family:'宋体';
+}
+
+#bottom table{
+	width:280px;
+	height:200px;
+	margin: 20px auto;
+}
+#bottom table .txt{
+	width:160px;
+	border:1px solid gray;
+}
+#bottom table .yzm{
+	border:1px solid gray;
+}
+#bottom table caption{
+	font-size:18px;
+	font-weight:300;
+	font-family:'宋体';
+}
+#bottom table a{
+	color:gray;
+	font-size:12px;
+	text-decoration: none;
+}
+#bottom table a:hover{
+	color:red;
+}
+#zhuce{
+	width:460px;
+	margin:50px auto;
+	border:1px solid blue;
+	border-radius:10px;
+	background-color: #CCFFCC;
+	padding-bottom:20px;
+}

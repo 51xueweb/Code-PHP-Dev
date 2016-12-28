@@ -1,0 +1,5 @@
+[ 2016-12-28T11:40:05+08:00 ] ::1 /tets/php_article/025/Codes/mytp/login/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+

@@ -1,0 +1,40 @@
+/*css样式*/
+body{
+	cellpadding:0;
+	cellspacing:0;
+	padding:0;
+	margin:0;
+}
+a{
+	margin-left:20px;
+	font-size:14px;
+	color:#CCCCCC;
+}
+#content{
+	margin:30px auto;
+	border:1px solid green;
+	border-radius:10px;
+	padding:40px;
+	width:300px;
+	height:200px;
+}
+#tb_main {
+	line-height:2em;
+	margin:auto;
+}
+#tb_main .btn{
+	margin-left:20px;
+	width:60px;
+}
+.sub{
+	margin-left:40%;
+	width:60px;
+}
+#zhuce{
+	margin:30px auto;
+	border:1px solid green;
+	border-radius:10px;
+	padding:40px;
+	width:300px;
+	height:220px;
+}
