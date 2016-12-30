@@ -57,7 +57,7 @@
 						<li class="td8"><?php echo $size;?>KB</li>
 						<li class="td7"><a href="./download/<?php echo $id?>" style="text-decoration:underline;color:rgb(0,153,230)">下载</a></li>
 						<li class="td9"><a href="http://www.51xueweb.cn/" style="text-decoration:underline;color:rgb(0,153,230)" target="_blank">点击查看</a></li>
-						<li class="td10"><a href="./phpresource/<?php echo $id?>/Codes/<?php echo $view_addr?>" style="text-decoration:underline;color:rgb(0,153,230)" target="_blank">点击查看</a></li>
+						<li class="td10"><a href="./PHParticle/<?php echo $id?>/Codes/<?php echo $view_addr?>" style="text-decoration:underline;color:rgb(0,153,230)" target="_blank">点击查看</a></li>
 					</ul>
 					<?php
 						}
