@@ -35,7 +35,7 @@
 				</div>
 				<div class="list">
 					<?php
-						require("conn.php");
+						require("./phpWebsite/conn.php");
 						/**1.传入页码 **/
 						$page=@$_GET['p']?@$_GET['p']:1;//url中传入的值 (p=1/2/3...)
 						/**2.传入分页数据**/
@@ -55,9 +55,9 @@
 						<li class="td5"><?php echo $if_jq?"√":"X";?></li>
 						<li class="td6"><?php echo $code_nums;?></li>
 						<li class="td8"><?php echo $size;?>KB</li>
-						<li class="td7"><a href="../download/<?php echo $id?>" style="text-decoration:underline;color:rgb(0,153,230)">下载</a></li>
+						<li class="td7"><a href="./download/<?php echo $id?>" style="text-decoration:underline;color:rgb(0,153,230)">下载</a></li>
 						<li class="td9"><a href="http://www.51xueweb.cn/" style="text-decoration:underline;color:rgb(0,153,230)" target="_blank">点击查看</a></li>
-						<li class="td10"><a href="../phpresource/<?php echo $id?>/Codes/<?php echo $view_addr?>" style="text-decoration:underline;color:rgb(0,153,230)" target="_blank">点击查看</a></li>
+						<li class="td10"><a href="./phpresource/<?php echo $id?>/Codes/<?php echo $view_addr?>" style="text-decoration:underline;color:rgb(0,153,230)" target="_blank">点击查看</a></li>
 					</ul>
 					<?php
 						}
