@@ -44,9 +44,9 @@
 					<ul>
 						<li class="td1" style="border-left-width:1px;"><?php echo $id;?></li>
 						<li class="td2"><?php echo $name;?></li>
-						<li class="td3"><?php echo $if_db?"√":"X";?></li>
-						<li class="td4"><?php echo $if_web?"√":"X";?></li>
-						<li class="td5"><?php echo $if_jq?"√":"X";?></li>
+						<li class="td3"><?php echo $if_db?"√":"╳";?></li>
+						<li class="td4"><?php echo $if_web?"√":"╳";?></li>
+						<li class="td5"><?php echo $if_jq?"√":"╳";?></li>
 						<li class="td6"><?php echo $code_nums;?></li>
 						<li class="td8"><?php echo $size;?>KB</li>
 						<li class="td7"><a href="./download/<?php echo $id?>" style="text-decoration:underline;color:rgb(0,153,230)">下载</a></li>
