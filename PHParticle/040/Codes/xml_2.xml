@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<student id="100101">
+
+  <name>张三</name>
+
+  <sex>男</sex>
+
+  <age>15</age>
+
+</student>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<studentInfo>
+
+  <student>
+
+    <id>100100</id>
+
+    <name>张三</name>
+
+    <sex>男</sex>
+
+    <age>15</age>
+
+  </student>
+
+  <student>
+
+    <id>100101</id>
+
+    <name>赵灵儿</name>
+
+    <sex>女</sex>
+
+    <age>17</age>
+
+  </student>
+
+</studentInfo>
