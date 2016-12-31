@@ -6,9 +6,9 @@ body{width:100%;background:url(../images/bg.png) no-repeat;margin:0; padding:0;h
 .content-top{background:rgb(0,153,230);width:1200px;height:48px;}
 .content-top ul li {border-right:1px solid rgb(214,214,214); height:48px;float:left;}
 .th1{width:90px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
-.th2{width:271px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th2{width:291px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
 .th3{width:90px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
-.th4{width:134px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
+.th4{width:114px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
 .th5{width:90px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
 .th6{width:99px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
 .th7{width:102px;float:left;text-align:center;color:#ffffff;font-size:15px;font-family:'微软雅黑';font-weight:bold;height:48px;line-height:48px;}
@@ -22,9 +22,9 @@ body{width:100%;background:url(../images/bg.png) no-repeat;margin:0; padding:0;h
 .list ul:nth-child(even){background-color:rgb(242,251,255);}
 .list ul li {border:1px solid rgb(214,214,214);border-top-width:0px;border-left-width:0px;float:left;}
 .td1{width:89px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑,';height:40px;line-height:40px;}
-.td2{width:271px;float:left;text-align:left;text-indent:20px;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td2{width:291px;float:left;text-align:left;text-indent:20px;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
 .td3{width:90px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
-.td4{width:134px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
+.td4{width:114px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
 .td5{width:90px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
 .td6{width:99px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
 .td7{width:102px;float:left;text-align:center;color:#000000;font-size:14px;font-family:'微软雅黑';height:40px;line-height:40px;}
