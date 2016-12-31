@@ -4,9 +4,9 @@
         <title>棒棒糖-PHP程序开发100例</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width"> 
-		<link rel="stylesheet" type="text/css" href="css/base.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-        <script type="text/javascript" src="JS/jquery-1.9.1.js"></script>
+		<link rel="stylesheet" type="text/css" href="./phpWebsite/css/base.css">
+		<link rel="stylesheet" type="text/css" href="./phpWebsite/css/index.css">
+        <script type="text/javascript" src="./phpWebsite/JS/jquery-1.9.1.js"></script>
 	</head>
     <body>
 		<!--top开始-->
