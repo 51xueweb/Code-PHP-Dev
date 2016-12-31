@@ -14,7 +14,8 @@
 </body>
 </html>
 <?php
-@session_start();
+error_reporting(0);
+session_start();
 if(isset($_POST['ok'])){
 	$checkstr=$_SESSION['string'];  //获取验证码字符串
 	$str=$_POST['check'];   //获取文本框中用户输入的字符
