@@ -1,6 +1,7 @@
 <?php
     error_reporting(0);
-    session_start();
+    //session_start();
+echo "11";
 ?>
 <!DOCTYPE html>
 <html>
