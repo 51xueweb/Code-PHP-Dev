@@ -2,15 +2,15 @@
 	/**
 	 *php实现数据库备份导出成sql
 	 */
-
+	error_reporting(0);
 	header("Content-type:text/html;charset=utf-8");
 
 	//连接数据库
 	$dbms='mysql';     //数据库类型
-	$host='localhost:3307'; //数据库主机名
+	$host='10.10.3.33'; //数据库主机名
 	$dbName='phpDemo';    //使用的数据库
 	$user='root';      //数据库连接用户名
-	$pass='';          //对应的密码
+	$pass='51xueweb';          //对应的密码
 	$dsn="$dbms:host=$host;dbname=$dbName";
 	try {
 		$dbh = new PDO($dsn, $user, $pass); //初始化一个PDO对象

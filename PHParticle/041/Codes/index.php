@@ -1,3 +1,4 @@
+<?php session_start();error_reporting(0);?>
 <!-- 首页 -->
 <!DOCTYPE html>
 <html>
@@ -18,7 +19,6 @@
 	<h3><center>在线聊天中心</center></h3>
 	<?php
 		// 显示当前用户和好友请求信息
-		session_start();
 		require("./conn.php"); 
 		// 判断用户是否已登录
 		if(empty($_SESSION['password'])){

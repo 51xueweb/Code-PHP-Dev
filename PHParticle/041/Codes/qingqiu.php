@@ -1,4 +1,4 @@
-<!-- 显示好友请求信息 -->
+<!-- 显示好友请求信息请求 -->
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html>

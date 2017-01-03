@@ -1,7 +1,4 @@
 <?php
-	/**
-	 *发送消息
-	 */
 
 	header("Content-type:text/html;charset=utf-8");
 	if(empty($_POST['sender'])){exit();}

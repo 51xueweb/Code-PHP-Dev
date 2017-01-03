@@ -1,3 +1,9 @@
+<?php
+  if(isset($_POST['sub'])){
+  	$id=$_POST['id'];
+  	header("location:info.php/show_info_{$id}.shtml");
+  }
+?>
 <!-- 用户信息检索界面 -->
 <!DOCTYPE html>
 <html>
@@ -23,9 +29,3 @@
 </div>
 </body>
 </html>
-<?php
-  if(isset($_POST['sub'])){
-  	$id=@$_POST['id'];
-  	header("location:info.php/show_info_{$id}.shtml");
-  }
-?>

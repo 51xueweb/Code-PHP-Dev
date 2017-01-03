@@ -13,11 +13,12 @@
 	require("./conn.php");
 	$f_nickname = $_GET['f_nickname']; // 要删除的好友昵称
 	$sql = "delete from `041_2` where nickname='".$_SESSION['nickname']."' and f_nickname='{$f_nickname}'";
-	$stmt=$dbh->query($sql);  // 执行删除
-	// 判断是否删除成功
+	$stmt=$dbh->query($sql);
 	if($stmt->rowCount()){
 		echo "<script type='text/javascript'> alert('删除成功'); location.href='index.php'; </script>";
 	}else{
 		echo "<script type='text/javascript'> alert('删除失败'); location.href='index.php'; </script>";
 	}
+	
+
 ?>

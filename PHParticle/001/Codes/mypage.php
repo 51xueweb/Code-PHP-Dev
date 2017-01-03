@@ -53,7 +53,6 @@
 	$pre=($page-1)*10;
 	$pagesize=10;
 	$showpage=5;
-	// 连接数据库
 	$dbms='mysql';     //数据库类型
 	$host='211.69.35.33'; //数据库主机名
 	$dbName='phpDemo';    //使用的数据库

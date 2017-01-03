@@ -3,10 +3,9 @@
 	 *制作折线图
 	 */
 
-	error_reporting(0);
-	 echo "<b>注：折线图的生成不支持PHP7以上版本。</b>";
-	 include("./jpgraph/src/jpgraph.php");
-	 include("./jpgraph/src/jpgraph_line.php");
+	header("Content-type:text/html;charset=UTF-8");
+	require("./jpgraph/src/jpgraph.php");
+	require("./jpgraph/src/jpgraph_line.php");
 
 	 $datay1=array(40,26,15,35,26,15,44,26,15,27,40,15);
 
@@ -28,7 +27,7 @@
 
 	 $p1=new LinePlot($datay1);  // 创建图像
 	 $p1->SetColor("navy");  // 设置图像颜色
-	 $p1->mark->SetType(MARK_IMG,'01.png',0.5); // 设置标签的样式，使用图片
+	 $p1->mark->SetType(MARK_IMG,'01.PNG',0.5); // 设置标签的样式，使用图片
 	 $p1->value->SetFormat('%d'.iconv("utf-8","gb2312",'万元'));  // 格式化数据
 	 $p1->value->Show(); // 显示值
 	 $p1->value->SetColor('darkred'); // 显示值的颜色
@@ -36,6 +35,6 @@
 	 $p1->value->SetMargin(14); // 设置位置、字体大小
 	 $p1->SetCenter();
 	 $graph->Add($p1); // 添加数据
-	 //$graph->Stroke(); // 生成图像
+	 $graph->Stroke(); // 生成图像
  ?>
 

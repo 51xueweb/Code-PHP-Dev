@@ -36,8 +36,10 @@
 
 	// 添加好友
 	$sql3= "insert `041_2` (nickname,f_nickname) values ('{$nickname}','{$f_nickname}');";
+	echo $sql3;
 	$res3 = $dbh->query($sql3);
 	if($res3->rowCount()){
 		echo "<script type='text/javascript'> alert('好友请求发送成功，请等待对方确认'); location.href='addfriend.php'; </script>";
 	}
+
 ?>

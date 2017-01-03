@@ -13,8 +13,6 @@
 		<option>./images/cz.jpeg</option>
 		<option>./images/mx.jpeg</option>
 		<option>./images/zj.jpeg</option>
-		<option>./images/ch.jpg</option>
-		<option>./images/mn.jpg</option>
 		<option>./images/xm.jpg</option>
 		</select>
 	</td>
@@ -28,7 +26,10 @@
 	/**
 	 *实现图片等比例缩放
 	 */
+	error_reporting(0);
 	// 获取图片的基本信息
+	error_reporting(0);
+	header("Content-type:text/html;charset=UTF-8");
 	if(isset($_POST['sub'])){
 		// 定义一些缩放后的图片信息
 		$maxx=200;  // 缩放后图片的最大宽度

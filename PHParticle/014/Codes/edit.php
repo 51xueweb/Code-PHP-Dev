@@ -2,7 +2,7 @@
 	/**
 	 *编辑功能
 	 */
-
+	header("Content-type:text/html;charset=UTF-8;");
 	include("conn.php");
 	// 查询数据
 	if(!empty($_GET['edit'])){
@@ -23,6 +23,7 @@
 		$new_title=$_POST['title'];
 		$new_contents=$_POST['con'];
 		$sql="update `014` set `title`='$new_title',`contents`='$new_contents' where `id`='$id' limit 1";
+		echo $sql;
 		$stmt=$dbh->query($sql);
 		if($stmt->rowCount()){
 			echo "<script>alert('更新成功！');location='index.php';</script>";

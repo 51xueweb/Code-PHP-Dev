@@ -41,4 +41,5 @@
 		}else{
 			echo "<script type='text/javascript'> alert('对不起！注册失败！');history.back(); </script>";
 		}
+
 	}

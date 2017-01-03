@@ -29,6 +29,8 @@
 	 * @param string $pre 处理后图片名的前缀名
 	 * @return String 返回后的图片名称(带路径)，如a.jpg=>n_a.jpg
 	 */
+
+	error_reporting(0);
 	function imageUpdateLogo($picname,$logo,$pre="shuiyin_"){
 		
 		$picnameinfo = getimageSize($picname); //获取图片源的基本信息

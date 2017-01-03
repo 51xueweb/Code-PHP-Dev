@@ -1,7 +1,8 @@
 <!-- <?php 
 	$username=$_POST['username'];
 	$pwd=$_POST['pwd'];
- ?> -->
+?> -->
+<?php error_reporting(0);?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

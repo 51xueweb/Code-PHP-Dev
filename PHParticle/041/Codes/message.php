@@ -4,7 +4,7 @@
 	 */
 	session_start();
 	require("conn.php");
-	$geter= $_GET['geter'];   // 好友昵称
+	$geter= $_GET['geter'];   // 要聊天的好友昵称
 	$nickname = $_SESSION['nickname'];  // 当前用户昵称
 ?>
 <!DOCTYPE html>
@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript">
+
 		//定义全局变量 http_request
 		var http_request;
 		
@@ -23,7 +24,7 @@
 		$(function(){
 			$("#sendmess").click(sendMessage);
 		});
-
+		
 		// 发送消息函数（应用Ajax技术无刷新实现消息发送）
 		function sendMessage(){
 			var http_request = createAjaxObject();

@@ -14,6 +14,7 @@
 
 	<h3>删除留言</h3>
 	<?php
+		error_reporting(0);
 		$id=$_GET['id'];  //获取要删除留言的id号
 		$info=file_get_contents("liuyan.txt");  //从留言liuyan.txt信息文件中获取留言信息
 		$lylist=explode("@@@",$info);  //将留言信息以@@@的符号拆分成留言数组

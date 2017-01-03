@@ -1,0 +1,10 @@
+[ 2016-12-31T17:36:55+08:00 ] 127.0.0.1 /PHParticle/025/Codes/mytp/login/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029002s ]
+
+[ 2016-12-31T17:37:03+08:00 ] 127.0.0.1 /PHParticle/025/Codes/mytp/login/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
