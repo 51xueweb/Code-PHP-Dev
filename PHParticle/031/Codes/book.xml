@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <sheelbook>
 <book id="p1">
@@ -14,4 +15,22 @@
 </book>
 </sheelbook>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<sheelbook>
+<book id="p1">
+<title>神雕侠侣</title>
+<author>金庸</author>
+</book>
+<book id="p2">
+<title>神雕英雄传</title>
+<author>金庸</author>
+</book>
+<book id="p3">
+<title>新白娘子传奇</title>
+<author>古龙</author>
+</book>
+</sheelbook>
+
+>>>>>>> origin/master
  
