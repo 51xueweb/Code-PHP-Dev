@@ -1,0 +1,46 @@
+body{
+	cellpadding:0;
+	cellspacing:0;
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+/*登录css样式*/
+#top{
+	background-image:url("../Images/login.png");
+	background-size: 100%;
+	width:100%;
+	height:240px;
+	color:white;
+	text-align:center;
+	line-height:240px;
+	font-size:34px;
+	font-family:'宋体';
+
+}
+#bottom table{
+	width:280px;
+	height:200px;
+	margin: 20px auto;
+}
+#bottom table .txt{
+	width:160px;
+	border:1px solid gray;
+}
+#bottom table .yzm{
+	border:1px solid gray;
+}
+#bottom table caption{
+	font-size:18px;
+	font-weight:300;
+	color:green;
+	font-family:'宋体';
+}
+#bottom table a{
+	color:gray;
+	font-size:12px;
+	text-decoration: none;
+}
+#bottom table a:hover{
+	color:red;
+}

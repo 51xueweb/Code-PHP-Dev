@@ -1,0 +1,5 @@
+﻿下面关于变量及其作用范围的陈述哪个是不对的?,A.实例变量是类的成员变量,B.实例变量用关键字static明,C.在方法中定义的局部变量在该方法被执行时创建,D.局部变量在使用前必须被初始化,B
+下列叙述中，正确的是(),A.Java语言的标识符是区分大小写的?,B.源文件名与public类名可以不相同,C.源文件扩展名为.jar?,D.源文件中public类的数目不限定义,A
+定义命名常量LENGTH，值为100的合理语句为(),A. public int LENGTH=100?,B. final int LENGTH=100?,C. public static int LENGTH=100?,D. static? final int LENGTH=100,D
+无需在程序中import就可以直接使用简单类名的类，属于包（）,A.java.applet?,B.java.awt?,C.java.util?,D.java.lang,D
+哪个Man描述了“Man has a best friend who is a Dog”这个关系?(),A. class Man extends Dog { },B. class Man implements Dog { },C. class Man { private BestFriend dog; },D. class Man { private Dog bestFriend; },D

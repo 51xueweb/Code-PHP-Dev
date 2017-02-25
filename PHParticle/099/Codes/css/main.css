@@ -1,0 +1,280 @@
+body,header{
+	cellpadding:0;
+	cellspacing:0;
+	margin:0;
+	padding:0;
+	background-color:rgb(242,251,255);
+}
+header{
+	height:120px;
+	color:#ffffff;
+	background-image:url('../images/login.png');
+}
+header a{
+	color:#ffffff;
+	text-decoration: none;
+}
+header a:hover{
+	color:blue;
+}
+#title{
+	font-size:28px;
+	font-weight:500;
+	line-height:60px;
+	color:#ffffff;
+	font-family:'楷体';
+}
+#top{
+	width:1000px;
+	height:120px;
+	margin:0 auto;
+}
+#nav{
+	float:right;
+	margin-top:34px;
+	margin-right:40px;
+	font-size:12px;
+	text-decoration: none;
+}
+article{
+	width:1000px;
+	margin:0 auto;
+}
+/*首页*/
+#art_top{
+	margin:10px auto;
+	text-align:center;
+}
+#theme{
+	width:320px;
+	line-height:35px;
+}
+#tuijian{
+	width:470px;
+	height:250px;
+	padding:10px;
+	border:1px solid #cccccc;
+	border-radius:8px 10px;
+	margin:10px 15px 10px 15px;
+	float:left;
+	font-size:16px;
+	font-family:'宋体';
+	font-weight:400;
+	background-color: #ffffff;
+}
+#tuijian td{
+	border:0;
+}
+#tuijian a:hover{
+	background-color:pink;
+}
+#car{
+	width:20px;
+	height:20px;
+}
+#pagebar{
+	width:100%;
+	line-height:80px;
+}
+/*goods_info.php页*/
+#gs_info{
+	width:1000px;
+	margin:15px auto;
+	border-collapse: collapse;
+	text-align:center;
+	font:'微软雅黑' 14px black;
+}
+#gs_info th,td{ 
+	border:1px solid #CCCCCC; 
+}
+#gs_info .td_left{
+	text-align:left;
+	padding-left:10px;
+	padding-right:10px;
+}
+#gs_info #tr1{
+	height:45px;
+	line-height:45px;
+	color:#ffffff;
+	font-size:15px;
+	font-family:'微软雅黑';
+	font-weight:bold;
+	background-color:#15A848;
+}
+#gs_info tr:nth-child(odd){background-color:#FFF;}
+#gs_info tr:nth-child(even){background-color:rgb(242,251,255);}
+#gs_info #car{
+	width:30px;
+	height:30px;
+}
+/*分页条样式*/
+.page{
+	position:relative;
+	margin:30px 30px;
+	margin-left:360px;
+}
+.page a{
+	border:1px solid #aaaadd;
+	text-decoration: none;
+	padding:2px 5px 2px 5px;
+	margin:2px;
+}
+.page a:hover{
+	border:2px solid #aaaadd;
+	padding:2px 6px 2px 6px;
+	color:white;
+	background-color:#c5bbaf;
+}
+.page span.current{
+	color:white;
+	border:1px solid #CCCCCC;
+	background-color: #15A848;
+	padding:2px 6px 2px 6px;
+	margin:2px;
+}
+.page span.disable{
+	border:1px solid #eee;
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	color:#ddd;
+}
+.page #form{
+	display: inline;
+}
+.content{
+	width:920px;
+}
+/*注册*/
+#zhuce{
+	width:400px;
+	padding:30px;
+	background-color:#ffffff;
+	border:1px solid #CCCCCC;
+	border-radius:10px;
+	line-height:2em;
+	margin:20px auto;
+}
+#zhuce td{
+	border:0;
+}
+#zhuce #beizhu{
+	font-size:12px;
+	color:gray;
+}
+/*登录*/
+#login{
+	margin:30px auto;
+}
+#tb_login{
+	width:340px;
+	padding:40px;
+	background-color:#ffffff;
+	border:1px solid #CCCCCC;
+	border-radius:10px;
+	line-height:2em;
+	margin:20px auto;
+}
+#tb_login td{
+	border:0;
+}
+#a_admin{
+	text-decoration: underline;
+	font-size:14px;
+}
+#a_admin:hover{
+	color:red;
+}
+/*编辑个人信息*/
+#cpwd{
+	color:gray;
+	font-size:14px;
+	text-decoration: underline;
+}
+#cpwd:hover{
+	color:red;
+}
+/*我的购物车*/
+#mycar{
+	width:1000px;
+	margin:auto;
+	border-collapse: collapse;
+	text-align:center;
+	background-color: #ffffff;
+}
+#mycar th{
+	line-height:30px;
+}
+#mycar th,td{
+	border:1px solid #CCCCCC;
+}
+#mycar #td_gj{
+	text-align:right;
+	line-height:30px;
+	padding-right:100px;
+}
+#mycar #gname{
+	text-align:left;
+	padding-left:10px;
+	padding-right:10px;
+}
+#mycar a{
+	color:green;
+	text-decoration: none;
+}
+#mycar a:hover{
+	color:gray;
+}
+#mycar_edit{
+	width:440px;
+	margin:auto;
+	border-collapse: collapse;
+	text-align:center;
+	background-color: #ffffff;
+}
+#mycar_edit th{
+	line-height:30px;
+}
+#mycar_edit th,td{
+	border:1px solid #CCCCCC;
+}
+#mycar_edit #td_last{
+	line-height:40px;
+}
+#mycar_edit #sub_tj{
+	width:100px;
+}
+/*后台*/
+.a_ope{
+	color:green;
+}
+.a_ope:hover{
+	color:gray;
+}
+#gs_edit{
+	width:500px;
+	padding:30px;
+	margin:30px auto;
+	line-height:1.5em;
+	border:1px solid #CCCCCC;
+	border-radius:10px;
+	background-color: #ffffff;
+}
+#gs_edit td{
+	border:0;
+}
+#a_gadd{
+	text-decoration: none;
+	padding:2px 6px;
+	border:1px solid green;
+	border-radius:8px;
+	color:black;
+	float:right;
+	background-color: #ffffff;
+}
+#a_gadd:hover{
+	color:green;
+}
+.tip{
+	font-size:14px;
+	color:gray;
+}
