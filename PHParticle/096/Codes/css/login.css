@@ -1,0 +1,31 @@
+/*登录页面css样式*/
+body{
+	cellpadding:0;
+	cellspacing:0;
+	padding:0;
+	margin:0;
+	background-color: #ffffff;
+}
+#main{
+	width:600px;
+	margin:40px auto;
+}
+#top{
+	height:120px;
+	line-height:120px;
+	text-align:center;
+	background-color:#336699;
+}
+#middle{
+	height:25px;
+	background-color:#ffffff;
+}
+#bottom{
+	line-height:2em;
+	padding-top:40px;
+	padding-bottom:60px;
+	background-color:#99CCCC;
+}
+#tb_login{
+	margin:auto;
+}
