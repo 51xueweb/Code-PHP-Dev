@@ -1,0 +1,101 @@
+/*注册、登录css样式*/
+body{
+	cellpadding:0;
+	cellspacing:0;
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+/*登录*/
+#top{
+	background-image:url("../images/beijing.jpg");
+	background-size: 100%;
+	width:100%;
+	height:240px;
+	color:white;
+	text-align:center;
+	line-height:240px;
+	font-size:34px;
+	font-family:'宋体';
+
+}
+#bottom table{
+	width:280px;
+	height:200px;
+	margin: 20px auto;
+}
+#bottom table .txt{
+	width:160px;
+	border:1px solid gray;
+}
+#bottom table .yzm{
+	border:1px solid gray;
+}
+#bottom table caption{
+	font-size:18px;
+	font-weight:300;
+	color:blue;
+	font-family:'宋体';
+}
+#bottom table a{
+	color:gray;
+	font-size:12px;
+	text-decoration: none;
+}
+#bottom table a:hover{
+	color:red;
+}
+
+/*用户信息*/
+#con{
+	width:320px;
+	height:220px;
+	margin:50px auto;
+	border:1px solid blue;
+	padding:40px;
+	line-height:1.5em;
+	border-radius:10px;
+	background-color: white;
+}
+#con #enter a{
+	background-color:#A6E3DA;
+	padding:6px 10px;
+	border:1px solid blue;
+	border-radius:8px 10px;
+	text-decoration: none;
+	color:black;
+}
+#con #enter{
+	margin-top:30px;
+}
+
+/*注册*/
+#zhuce{
+	width:460px;
+	background-color: white;
+	margin:50px auto;
+	border:1px solid #8FDC9A;
+	border-radius:20px;
+	padding:30px;
+	font-size:14px;
+	line-height:2em;
+}
+#tabzhuce{
+	width:370px;
+	margin:auto;
+}
+#tabzhuce .bz{
+	font-size:12px;
+	color:gray;
+}
+#zhuce #lj{
+	color:gray;
+	font-size:12px;
+	text-decoration: none;
+	font-size:12px;
+	color:gray;
+	text-decoration: none;
+}
+#zhuce #lj:hover{
+	color:blue;
+}

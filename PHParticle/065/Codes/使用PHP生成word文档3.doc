@@ -1,0 +1,39 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+			xmlns:w="urn:schemas-microsoft-com:office:word"
+			xmlns="http://www.w3.org/TR/REC-html40"> 
+	<head><meta charset="utf-8"></head>
+	<body>
+	<table style="margin:auto;border:1px solid black;font-size:16px;background-color:#CCCCFF;
+		padding:10px;height:180px;">
+	<caption><h3 color="blue">个人信息录入</h3></caption>
+	<tr>
+		<td width="80px">姓名：</td>
+		<td width="150px"><input type="text" name="name" class="txt"></td>
+		<td width="80px">性别：</td>
+		<td width="150px"><input type="text" name="sex"  class="txt"></td>
+	</tr>
+	<tr>
+		<td>出生年月：</td>
+		<td><input type="text" name="bir" width="130px"></td>
+		<td>政治面貌：</td>
+		<td><input type="text" name="zz" width="130px"></td>
+	</tr>
+	<tr>
+		<td>学历：</td>
+		<td><input type="text" name="xl" width="130px"></td>
+		<td>专业：</td>
+		<td><input type="text" name="major" width="130px"></td>
+	</tr>
+	<tr>
+		<td>联系电话：</td>
+		<td><input type="text" name="tel" width="130px"></td>
+		<td>qq：</td>
+		<td><input type="text" name="qq" width="130px"></td>
+	</tr>
+	<tr>
+		<td>联系地址：</td>
+		<td colspan="3"><input type="text" name="address" width="250px"></td>
+	</tr>
+	</table>
+	</body>
+	</html>

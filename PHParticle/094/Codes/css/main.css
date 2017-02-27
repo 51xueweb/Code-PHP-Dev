@@ -1,0 +1,154 @@
+/*主页面*/
+body{
+	cellpadding:0;
+	cellspacing:0;
+	margin:0;
+	padding:0;
+	background-color:#E8F8F8;
+}
+body,header,nav,article,footer,ul,li,a,table,tr,td,h,p{
+	margin:0;
+	padding:0;
+	cellpadding:0;
+	cellspacing:0;
+}
+#main{
+	width:1000px;
+	margin:auto;
+}
+header{
+	height:140px;
+	font-family:'楷体';
+	font-size:32px;
+	line-height:140px;
+	text-align:center;
+	background-color: #FFFFCC;
+}
+nav{
+	height:40px;
+	color:#ffffff;
+	text-align:center;
+	background-color: #99CC66;
+}
+nav ul li{
+	text-decoration: none;
+	list-style:none;
+	display:inline-block;
+	line-height:40px;
+	padding-left:20px;
+	padding-right:20px;
+}
+nav a{
+	text-decoration: none;
+	color:#ffffff;
+}
+nav a:hover{
+	color:#FFFFCC;
+}
+#art_top{
+	margin:10px auto;
+	text-align:center;
+}
+#tb_show{
+	width:470px;
+	height:250px;
+	padding:10px;
+	border:1px solid #cccccc;
+	border-radius:8px 10px;
+	margin:10px 15px 10px 15px;
+	float:left;
+	font-size:16px;
+	font-family:'宋体';
+	font-weight:400;
+	line-height:1.5em;
+	background-color: #ffffff;
+}
+#tb_show td{
+	border:0;
+}
+#tb_show a{
+	text-decoration:none;
+}
+#tb_show a:hover{
+	background-color:blue;
+}
+#btn_vote{
+	width:80px;
+	margin-top:10px;
+	float:right;
+	margin-right:30px;
+}
+#pagebar{
+	width:100%;
+	line-height:80px;
+}
+#pagebar a{
+	text-decoration: none;
+	color:blue;
+}
+#pagebar a:hover{
+	color:gray;
+}
+#tip{
+	line-height:40px;
+	font-weight:570;
+	padding-left:20px;
+	font-size:18px;
+	width:100px;
+	margin:16px;
+	border:1px solid #cccccc;
+	border-radius:20px 10px;
+	background-color: #FFFFCC;
+	color:#99CC66;
+}
+#tb_addvote{
+	margin:auto;
+	padding:30px;
+	margin-bottom:50px;
+	line-height:2em;
+	border:1px solid #CCCCCC;
+	border-radius:10px;
+	background-color:#ffffff;
+}
+#tb_addvote td{border:0;}
+.txt{
+	width:340px;
+}
+#tip2{
+	line-height:40px;
+	font-weight:570;
+	padding-left:20px;
+	font-size:18px;
+	width:132px;
+	margin:16px;
+	border:1px solid #cccccc;
+	border-radius:20px 10px;
+	background-color: #FFFFCC;
+	color:#99CC66;
+}
+.tb_myvote{
+	width:850px;
+	margin:auto;
+	border-collapse: collapse;
+	line-height:1.5em;
+	text-align:center;
+	background-color: #ffffff;
+}
+.tb_myvote th,td{
+	border:1px solid #CCCCCC;
+}
+.tb_myvote a{
+	color:green;
+	text-decoration: none;
+}
+.tb_myvote a:hover{
+	color:gray;
+}
+#td_name{
+	text-align:left;
+	padding-left:20px;
+	padding-right:20px;
+}
+#tb_cy{
+	margin-bottom:80px;
+}
