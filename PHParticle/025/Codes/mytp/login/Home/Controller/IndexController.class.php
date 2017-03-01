@@ -12,7 +12,7 @@ class IndexController extends Controller {
     	if(isset($_POST['sub'])){
     		if(!empty($uname)&&!empty($upwd)){ //如果用户名和密码非空
     			$user=M(); // 实例化模型
-    			$select=$user->query("select * from `025` where name='$uname' and pwd='$upwd'"); // 执行查询
+    			$select=$user->query("select * from `think` where name='$uname' and pwd='$upwd'"); // 执行查询
     			if($select){ // 如果存在该用户 
     				// 将用户名和密码保存在session中
     				session_start();
@@ -44,7 +44,7 @@ class IndexController extends Controller {
     	$upwd=$_SESSION['upwd'];
     	// 执行查询用户信息
     	$user=M();
-    	$select=$user->query("select * from `025` where name='$uname' and pwd='$upwd'");
+    	$select=$user->query("select * from `think` where name='$uname' and pwd='$upwd'");
 
     	$this->assign('info',$select);	// 传递变量
     	$this->display(); // 显示用户信息展示页面
@@ -64,7 +64,7 @@ class IndexController extends Controller {
 	   		if(!empty($uname)&&!empty($upwd)){ 
 	   			// 判断该用户是否已经注册
 	   			$user1=M();
-    			$select=$user1->query("select * from `025` where name='$uname' and pwd='$upwd'");
+    			$select=$user1->query("select * from `think` where name='$uname' and pwd='$upwd'");
     			if($select){ // 如果存在该用户 
     				$this->redirect('Index/index','',3,'该用户已经注册，请直接登录!...页面跳转中...');
     			}
@@ -79,7 +79,7 @@ class IndexController extends Controller {
 	   				'address'=>$uaddress,
 	   			);
 	   			
-	   			$insert=M('User')->add($data);
+	   			$insert=M('think')->add($data);
 	   			if($insert){   // 如果注册成功
 	   				// 将用户名密码保存在session中
 	   				session_start();
